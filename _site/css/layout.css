@@ -1,5 +1,5 @@
 body {
-  min-width:700px;
+  min-width:900px;
 }
 
 .ingrid {
@@ -68,20 +68,46 @@ article {
   text-align:justify;
 }
 
-pre {
-  background:#FAFAFA;
+ul li {
+  list-style-type: circle;
 }
 
-.linenos {
-  color:#888;
-  padding-right:0px;
-  padding-left:0px;
-  width:20px;
+pre {
+}
+
+.highlighttable {
+  padding:0px;
+  margin:0px;
+}
+
+.highlighttable div {
+  margin:0px;
+  padding:0px;
+  overflow:hidden;
+}
+
+.highlighttable tr, .highlighttable td, .highlighttable th  {
+  padding:0px;
+  margin:0px;
+}
+
+.highlighttable pre {
+  margin: 0.5em 0 1.5em 0;
 }
 
 .linenos pre {
-  text-align:right;
-  background:#FFF;
-  padding-right:5px;
-  padding-left:0px;
+  text-align:left;
+  width:7px;
+}
+
+.linenos pre code {
+  background:none;
+  border:none; 
+  color: #444;
+}
+
+.code pre {
+  padding-left:6px;
+  background:#F5F5FF;
+  border-left:1px solid #E5E5EE;
 }

@@ -42,7 +42,7 @@ title: joeroot.com
     {% for post in site.posts %}
       <div class="post ingrid in-sixths">
         <div class="unit date"><h4>{{ post.date | date: "%d %B" }}</h4></div> 
-        <div class="unit span-five title"><h2><a href="{{ post.url }}">{{ post.title }}</a></h2></div>
+        <div class="unit span-five title"><h2><a class="category {{ post.category }}" href="{{ post.url }}">{{ post.title }}</a></h2></div>
       </div>
     {% endfor %}
     </div>
