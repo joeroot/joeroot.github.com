@@ -2,7 +2,7 @@
 layout: post
 title: Getting started with Bison
 category: tech
-abstract: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+image: /images/bison-davemorris.jpg
 ---
 
 

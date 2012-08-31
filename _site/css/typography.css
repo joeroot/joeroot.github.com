@@ -53,6 +53,16 @@ section h3 {
   text-transform: uppercase;
 }
 
+.splash h1 {
+  font-family:"raleway";
+  font-weight:100;
+  font-size:3em;
+  margin:0;
+  padding:0;
+  text-transform:uppercase;
+  color:#FFF;
+}
+
 pre,code,tt {
   font-family:'inconsolata';
 }

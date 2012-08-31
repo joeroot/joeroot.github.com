@@ -49,6 +49,14 @@ a.home:hover {
   background:#DB0014;
 }
 
+div.splash {
+  width:100%;
+  padding:200px 0px;
+  background-size:100%;
+  background-position:center;
+  text-align:center;
+}
+
 #avatar {
   display:block;
   border-radius:46px;
